@@ -58,6 +58,8 @@ var any = C.letrec(function(tie) {
 
 describe('serializeHttpError', function() {
 
+  this.timeout(20000);
+
   it('is a binary function', function() {
     expect(serialize).to.be.a('function');
     expect(serialize.length).to.equal(2);
