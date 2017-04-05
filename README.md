@@ -63,7 +63,7 @@ will be left intact.
 
 ### `expose`
 
-> `process.NODE_ENV === 'development'`
+> `process.env.NODE_ENV === 'development'`
 
 If set to `true`, *all* errors will be exposed. If set to false, only exposable
 errors are exposed.
