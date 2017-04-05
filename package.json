@@ -1,0 +1,38 @@
+{
+  "name": "serialize-http-error",
+  "version": "0.0.0",
+  "description": "Prepare an Error for JSON serialization",
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "clean": "rimraf npm-debug.log coverage",
+    "lint": "eslint index.js test",
+    "lint:fix": "npm run lint -- --fix",
+    "release": "npm outdated --long && xyz --edit --repo git@github.com:Avaq/serialize-http-error.git --tag 'X.Y.Z' --increment",
+    "test": "npm run test:all && npm run test:coverage && codecov",
+    "test:all": "npm run lint && npm run test:unit",
+    "test:unit": "_mocha --ui bdd --reporter list --check-leaks --full-trace test/**.test.js",
+    "test:coverage": "npm run clean && istanbul cover --report html _mocha -- --ui bdd --reporter dot --check-leaks --bail test/**.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Avaq/serialize-http-error.git"
+  },
+  "author": "Aldwin Vlasblom <aldwin.vlasblom@gmail.com> (https://github.com/Avaq)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Avaq/serialize-http-error/issues"
+  },
+  "homepage": "https://github.com/Avaq/serialize-http-error",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "codecov": "^2.1.0",
+    "eslint": "^3.19.0",
+    "eslint-config-warp": "^1.2.0",
+    "istanbul": "^0.4.5",
+    "jsverify": "^0.8.2",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.6.1",
+    "xyz": "^2.1.0"
+  }
+}

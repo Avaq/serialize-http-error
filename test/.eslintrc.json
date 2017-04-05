@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "strict": 0,
+    "no-unused-expressions": 0,
+    "no-invalid-this": 0,
+    "no-new-func": 0
+  },
+  "env": {
+    "mocha": true
+  }
+}

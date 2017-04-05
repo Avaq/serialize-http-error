@@ -1,0 +1,14 @@
+{
+  "extends": ["warp"],
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "func-style": 0,
+    "complexity": 0,
+    "no-param-reassign": 0
+  }
+}
