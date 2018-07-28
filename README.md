@@ -2,7 +2,7 @@
 
 [![NPM Version](https://badge.fury.io/js/serialize-http-error.svg)](https://www.npmjs.com/package/serialize-http-error)
 [![Build Status](https://travis-ci.org/Avaq/serialize-http-error.svg?branch=master)](https://travis-ci.org/Avaq/serialize-http-error)
-[![Code Coverage](https://codecov.io/gh/Avaq/serialize-http-error/branch/master/graph/badge.svg)](https://codecov.io/gh/Avaq/serialize-http-error)
+[![Code Coverage](https://codecov.io/gh/Avaq/serialize-http-error/branch/master/graph/badge.svg)](https://codecov.io/gh/Avaq/serialize-http-error) [![Greenkeeper badge](https://badges.greenkeeper.io/Avaq/serialize-http-error.svg)](https://greenkeeper.io/)
 
 Serializes any input (preferrably an Error) to a plain old JavaScript Object
 which has the following guarantees:
