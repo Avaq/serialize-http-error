@@ -25,14 +25,14 @@
   },
   "homepage": "https://github.com/Avaq/serialize-http-error",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "codecov": "^2.1.0",
-    "eslint": "^3.19.0",
-    "eslint-config-warp": "^1.2.0",
+    "chai": "^4.1.2",
+    "codecov": "^3.0.4",
+    "eslint": "^5.2.0",
+    "eslint-config-warp": "^3.0.0",
     "istanbul": "^0.4.5",
     "jsverify": "^0.8.2",
-    "mocha": "^3.2.0",
+    "mocha": "^5.2.0",
     "rimraf": "^2.6.1",
-    "xyz": "^2.1.0"
+    "xyz": "^3.0.0"
   }
 }
