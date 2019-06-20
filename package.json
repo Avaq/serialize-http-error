@@ -9,10 +9,11 @@
     "lint": "eslint index.js test",
     "lint:fix": "npm run lint -- --fix",
     "release": "npm outdated --long && xyz --edit --repo git@github.com:Avaq/serialize-http-error.git --tag 'X.Y.Z' --increment",
-    "test": "npm run test:all && npm run test:coverage && codecov",
+    "test": "npm run test:all && npm run test:coverage",
     "test:all": "npm run lint && npm run test:unit",
     "test:unit": "_mocha --ui bdd --reporter list --check-leaks --full-trace test/**.test.js",
-    "test:coverage": "npm run clean && istanbul cover --report html _mocha -- --ui bdd --reporter dot --check-leaks --bail test/**.test.js"
+    "test:coverage": "npm run clean && istanbul cover --report html _mocha -- --ui bdd --reporter dot --check-leaks --bail test/**.test.js",
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
