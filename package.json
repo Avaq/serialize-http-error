@@ -32,7 +32,7 @@
     "eslint-config-warp": "^1.2.0",
     "istanbul": "^0.4.5",
     "jsverify": "^0.8.2",
-    "mocha": "^3.2.0",
+    "mocha": "^6.1.4",
     "rimraf": "^2.6.1",
     "xyz": "^2.1.0"
   }
