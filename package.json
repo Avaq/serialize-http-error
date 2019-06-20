@@ -27,7 +27,7 @@
   "homepage": "https://github.com/Avaq/serialize-http-error",
   "devDependencies": {
     "chai": "^4.2.0",
-    "codecov": "^2.1.0",
+    "codecov": "^3.5.0",
     "eslint": "^5.16.0",
     "eslint-config-warp": "^3.0.0",
     "istanbul": "^0.4.5",
