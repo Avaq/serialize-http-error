@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Prepare an Error for JSON serialization",
   "main": "index.js",
-  "files": [],
+  "types": "index.d.ts",
+  "files": ["index.d.ts"],
   "scripts": {
     "clean": "rimraf npm-debug.log coverage",
     "lint": "eslint index.js test",
