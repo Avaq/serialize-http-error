@@ -4,7 +4,9 @@
   "description": "Prepare an Error for JSON serialization",
   "main": "index.js",
   "types": "index.d.ts",
-  "files": ["index.d.ts"],
+  "files": [
+    "index.d.ts"
+  ],
   "scripts": {
     "clean": "rimraf npm-debug.log coverage",
     "lint": "eslint index.js test",
@@ -35,6 +37,6 @@
     "jsverify": "^0.8.2",
     "mocha": "^6.1.4",
     "rimraf": "^2.6.1",
-    "xyz": "^3.0.0"
+    "xyz": "^4.0.0"
   }
 }
