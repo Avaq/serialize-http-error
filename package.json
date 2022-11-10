@@ -1,6 +1,6 @@
 {
   "name": "serialize-http-error",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Prepare an Error for JSON serialization",
   "main": "index.js",
   "types": "index.d.ts",
